@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AgeCalc />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AgeCalc from './components/AgeCalc.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AgeCalc
   }
 }
 </script>
